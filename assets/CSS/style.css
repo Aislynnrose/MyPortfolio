@@ -9,6 +9,7 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif ;
 }
 
+/* This sets my top bar as a galaxy image */
 .hero {
   height: 100px;
   width: 100%;
@@ -17,7 +18,7 @@
   background-position: center;
 }
 
-
+/* This is my header/nav content */
 .nav-container {
   margin: auto;
   width: 100%;
@@ -55,6 +56,7 @@ ul li a:hover {
   ;
 }
 
+/* This is my about me section */
 h2 {
   padding-top: 20px;
   align-items: center;  
@@ -88,6 +90,7 @@ h2 {
   height: auto;
 }
 
+/* This is my Contact and portfolio header */
 h3, h4 {
   text-align: center;
   font-size: 30px;
@@ -95,6 +98,7 @@ h3, h4 {
   background: #2a0136;
 } 
 
+/* this is my portfolio */
 .container {
   display: flex;
   flex-direction: column;
@@ -128,6 +132,7 @@ div section img {
   width: 100%;
 }
 
+/* this is my footer */
 footer {
   display: flex;
   justify-content: space-around;
@@ -142,4 +147,14 @@ footer img {
   padding: 0 10px 0 10px;
   height: 60px;
   width: 80px;
+}
+
+@media screen and (max-width: 768px) {
+.aboutcontainer {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.samples {
+  width: 100%;
 }

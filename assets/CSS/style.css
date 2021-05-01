@@ -17,7 +17,7 @@
   background-position: center;
 }
 
-  
+
 .nav-container {
   margin: auto;
   width: 100%;
@@ -56,28 +56,62 @@ ul li a:hover {
 }
 
 h2 {
-  padding: 30px;
-  float: right;
-  width: 60%;
+  padding-top: 20px;
+  align-items: center;  
+  width: auto;
   text-align: center;
   font-size: 30px;
 }
 
+.aboutcontainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  opacity: 0.7;
+}
+.aboutcontainer div {
+  margin: 0 50px 0 50px;
+  width: 100%;
+  height: auto;
+}
+
+.fleximg {
+  width: auto;
+  height: 325px;
+  margin: 50px;
+}
+
+#about {
+  width: 50%;
+  margin-right: 300px;
+  height: auto;
+}
+
+/* .about {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap; 
+  justify-content: space-evenly;
+  margin: 50px;
+} */
+
+/* 
 .right {
   display: center;
   float: right;
   width: 60%;
   padding: 20px 50px;
-}
+} */
 
-#photo {
+/* #photo {
   float: left;
   width: auto;
   height: 325px;
   margin: 5px 20px 5px 10px;
   padding: 25px 0 0 100px;
   align: center;
-}
+} */
 
 h3, h4 {
   text-align: center;
@@ -106,7 +140,7 @@ h3, h4 {
   text-align: center;
   /* box-shadow: 10px 10px 5px #aaaaaa; */
   margin: 20px;
-  width: 25%;
+  width: 20%;
 }
 
 .samples header {

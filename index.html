@@ -1,80 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/CSS/style.css" />
-    <title>Aislynn Rose</title>
-  </head>
-  <body>
-    <!-- This is my fun space bar up top -->
-    <div class="hero"></div>
-    <!-- This is my header and navbar -->
-    <header class="header">
-      <nav id="navbar">
-        <div class="nav-container">
-          <h1>Aislynn Rose Uribe</h1>
-          <ul>
-            <li><a href="#contact">Get in Touch</a></li>
-            <li><a href="#Portfolio">My Portfolio</a></li>
-            <li><a href="#about-me">About Me</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <main class="container">
-      <!-- This is the about me section -->
-      <section  id="about-me">
-        <h2>About Me</h2>
-        <div class="aboutcontainer">
-        <img class="fleximg" src="./assets/images/ProfessionalPhoto.jpg" alt='Professional Self Portrait' width="auto" height="325px">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/CSS/style.css" />
+  <link rel="icon"
+    href="https://previews.123rf.com/images/tony4urban/tony4urban1801/tony4urban180100046/93545715-gold-chemical-element-periodic-table-science-symbol.jpg">
+  <title>Aislynn Rose</title>
+</head>
+
+<body>
+  <!-- This is my fun space bar up top -->
+  <div class="hero"></div>
+  <!-- This is my header and navbar -->
+  <header class="header">
+    <nav id="navbar">
+      <div class="nav-container">
+        <h1>Aislynn Rose Uribe</h1>
+        <ul>
+          <li><a href="#contact">Get in Touch</a></li>
+          <li><a href="#Portfolio">My Portfolio</a></li>
+          <li><a href="#about-me">About Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="container">
+    <!-- This is the about me section -->
+    <section id="about-me">
+      <h2>About Me</h2>
+      <div class="aboutcontainer">
+        <img class="fleximg" src="./assets/images/ProfessionalPhoto.jpg" alt='Professional Self Portrait' width="auto"
+          height="325px">
         <div class="about">
-        Hi there! My Name is Aislynn (prounounced Azlin). I am a
-        full time employee for a membership association while in school part
-        time to build my education in coding. In my minimally spare time I enjoy
-        swimming and getting out in nature to reset and ground myself. The two
-        things I love most about coding would be the creative freedom as well as
-        the logic based aspect of the back-end code.
+          Hi there! My Name is Aislynn (prounounced Azlin). I am a
+          full time employee for a membership association while in school part
+          time to build my education in coding. In my minimally spare time I enjoy
+          swimming and getting out in nature to reset and ground myself. The two
+          things I love most about coding would be the creative freedom as well as
+          the logic based aspect of the back-end code.
         </div>
       </div>
-      </section>
-      <!-- This is the portfolio section -->
-      <section id="Portfolio">
-        <h3>My Portfolio</h3>
-        <br></br>
-          <div class="flexrow">
-            <section class="samples">
-              <header>Refactoring</header>
-              <a href="https://aislynnrose.github.io/Homework-week1/">
-              <img class="img-samples" src="./assets/images/01-html-css-git-homework-demo.png" alt="Horiseon Refactor Image" /></a>
-            </section>
-            <section class="samples">
-              <header>Coming Soon</header>
-              <!-- <img src="Add image link here"/> -->
-            </section>
-            <section class="samples">
-              <header>Coming Soon</header>
-              <!-- <img src="Add image link here"/> -->
-              </section>
-            <section class="samples">
-              <header>Coming Soon</header>
-              <!-- <img src="Add image link here"/> -->
-              </section>
-        </div>
+    </section>
+    <!-- This is the portfolio section -->
+    <section id="Portfolio">
+      <h3>My Portfolio</h3>
+      <br></br>
+      <div class="flexrow">
+        <section class="samples">
+          <header>Refactoring</header>
+          <a href="https://aislynnrose.github.io/Homework-week1/">
+            <img class="img-samples" src="./assets/images/01-html-css-git-homework-demo.png"
+              alt="Horiseon Refactor Image" /></a>
+        </section>
+        <section class="samples">
+          <header>Coming Soon</header>
+          <!-- <img src="Add image link here"/> -->
+        </section>
+        <section class="samples">
+          <header>Coming Soon</header>
+          <!-- <img src="Add image link here"/> -->
+        </section>
+        <section class="samples">
+          <header>Coming Soon</header>
+          <!-- <img src="Add image link here"/> -->
+        </section>
+      </div>
     </section>
     <!-- This is the contact section -->
     <section id="contact">
       <h4>Get in Touch</h4>
+      <div class="contact">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="youremail@mail.com">
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Your message here..." style="height:100px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
     </section>
   </main>
   <!-- This is the footer with social media links -->
   <footer>
     <a href="https://github.com/Aislynnrose">
-    <img class="GH" src="./assets/images/GitHub-Mark-64px.png" alt="GitHub social media link"></a>   
-    <div>&copy;Aislynn Rose Uribe</div>   
+      <img class="GH" src="./assets/images/GitHub-Mark-64px.png" alt="GitHub social media link"></a>
+    <div>&copy;Aislynn Rose Uribe</div>
     <a href="https://www.linkedin.com/in/aislynn-uribe-b32ab583/">
-    <img class="Li" src="./assets/images/LI-In-Bug.png" alt="LinkedIn social media link"></a>    
+      <img class="Li" src="./assets/images/LI-In-Bug.png" alt="LinkedIn social media link"></a>
   </footer>
-  </body>
+</body>
+
 </html>

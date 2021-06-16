@@ -1,5 +1,23 @@
-#My Portfolio
+# **My Portfolio**
+This website was built using [Boostrap](https://getbootstrap.com/)
 
-I created my portfolio with a theme reflecting the colors in the galaxy.
+## User Story
 
-There is an about me, a portfolio, and a contact form along with social media links at the bottom.
+```
+My profile is designed in a user friendly manner, available for any interested party to view
+```
+
+## _Deployed URL:_ https://aislynnrose.github.io/MyPortfolio/
+
+## _Github URL:_ https://github.com/Aislynnrose/MyPortfolio
+
+
+## Preview
+
+![Screenshot](./assets/images/PageSnippet.PNG)
+
+# Technologies Used
+
+* Boostrap
+* CSS
+* HTML

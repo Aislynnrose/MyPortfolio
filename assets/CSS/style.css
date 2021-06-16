@@ -1,11 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-} 
-
-* {
-  color:grey;
+  color:#333F63;
   font-family: Verdana, Geneva, Tahoma, sans-serif ;
 }
 
@@ -18,42 +14,11 @@
   background-position: center;
 }
 
-/* This is my header/nav content */
-.nav-container {
-  margin: auto;
-  width: 100%;
-  overflow: auto;
-  padding: 0px 20px;
-  background: #2a0136
-}
-
 h1 {
   float: left;
   width: 50%;
   padding: 25px ;
   text-align: center;
-}
-
-ul li {
-  list-style: none;
-  text-decoration: none;
-  float: right;
-  padding: 5px;
-  font-weight: bold;
-  }
-
-ul li a {
-  display: block;
-  text-align: center;
-  padding: 20px;
-  text-decoration: none;
-}
-
-ul li a:hover {
-  background: lightgray;
-  color: #2a0136;
-  font-weight: 100px
-  ;
 }
 
 /* This is my about me section */
@@ -65,71 +30,25 @@ h2 {
   font-size: 30px;
 }
 
-.aboutcontainer {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: row;
-  opacity: 0.7;
-}
-.aboutcontainer div {
-  margin: 0 50px 0 50px;
-  width: 100%;
-  height: auto;
-}
-
-.fleximg {
-  width: auto;
-  height: 325px;
-  margin: 50px;
-}
-
-#about {
-  width: 50%;
-  margin-right: 300px;
-  height: auto;
-}
-
 /* This is my Contact and portfolio header */
 h3, h4 {
+  display: block;
   text-align: center;
   font-size: 30px;
   padding: 30px;
-  background: #2a0136;
+  background: #D7D4DD;
+  margin: 25px;
+  left: 0;
+  right: 0;
 } 
 
+#carouselExampleCaptions {
+  margin: 25px;
+}
+
 /* this is my portfolio */
-.container {
-  display: flex;
-  flex-direction: column;
-  background: #0b0433;
-}
-
-.flexrow {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-.samples {
-  background-color: #3f3e42;
-  border-style: dotted;
-  border-width: 2px;
-  border-radius: 5px;
-  text-align: center;
-  margin: 20px;
-  width: 20%;
-}
-
-.samples header {
-  border-radius: 5px 5px 0px 0px;
-  padding: 20px;
-  color: #2a0136;
-  font-weight: bold;
-}
-
-div section img {
-  width: 100%;
+body {
+  background: #838BC2;
 }
 
 input[type=text], select, textarea {
@@ -146,8 +65,8 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #2a0136;
-  color: white;
+  background-color: #D7D4DD;
+  color: #838BC2;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -155,7 +74,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #580870;
+  background-color: #715C8C;
 }
 
 .contact {
@@ -170,7 +89,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #3f3e42;
+  background-color: #D7D4DD;
   overflow: auto;
   width: auto;
   padding: 5px;
@@ -183,11 +102,10 @@ footer img {
 }
 
 @media screen and (max-width: 768px) {
-.aboutcontainer {
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-bottom: 20px;
+
+.fleximg {
+  margin: auto;
+  text-align: center;
+  align-items: center
 }
-.samples {
-  width: 100%;
 }

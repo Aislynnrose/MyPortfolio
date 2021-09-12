@@ -12,6 +12,7 @@ My profile is designed in a user friendly manner, available for any interested p
 ## _Github URL:_ https://github.com/Aislynnrose/MyPortfolio
 
 
+
 ## Preview
 
 ![Screenshot](./assets/images/PageSnippet.PNG)
